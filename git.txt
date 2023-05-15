@@ -1,0 +1,33 @@
+git init 				初始化仓库
+
+git clone [url]			克隆仓库
+
+git add . 				将代码从工作区添加到暂存区
+
+git commit -m [message] 		将暂存区代码添加到本地仓库
+
+git status 			查看文件状态
+
+git push  				将本地分支推送到远程当前分支
+
+git push origin [origin_name] 	将本地分支 推送到 指定分支
+
+git push origin --d [origin_name] 	删除一个分支（远程）
+
+git push origin [origin_name]  	推送当前本地分支到指定远程分支
+
+git checkout [origin_name]  		切换分支
+
+git checkout -b [origin_name]	创建并切换至该分支 
+
+git branch [origin_name]		创建分支
+
+git branch -a 			查看本地和远程的所有分支
+
+git branch -r 			查看远程所有分支
+
+git branch -d [origin_name] 		删除一个分支（本地）
+
+git merge [origin_name] 		用于合并指定分支到当前分支（合并前保证指定分支为最新代码）
+
+git pull 				从远程仓库拉取代码到工作空间
